@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Society Details -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/milk_procurement_details"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/society_reg_no_code_no" />
+
+        <EditText
+            android:id="@+id/editText_societyRegNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Society Reg no. / Code no."/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/name_of_the_society" />
+
+        <EditText
+            android:id="@+id/editText_societyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name of the society" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/location" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/district" />
+
+        <EditText
+            android:id="@+id/editText_district"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="District" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Taluk" />
+
+        <EditText
+            android:id="@+id/editText_taluk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Taluk" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Block" />
+
+        <EditText
+            android:id="@+id/editText_block"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Block" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Village panchayat" />
+
+        <EditText
+            android:id="@+id/editText_villagePanchayat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Village panchayat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Revenue Village" />
+
+        <EditText
+            android:id="@+id/editText_revenueVillage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Revenue Village" />
+
+        <!-- Milk Procurement Details -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Milk Procurement" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date" />
+
+        <EditText
+            android:id="@+id/editText_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Morning" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Procurement" />
+
+        <EditText
+            android:id="@+id/editText_totalProcurementMorning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Procurement" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Local Sales" />
+
+        <EditText
+            android:id="@+id/editText_localSalesMorning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Local Sales" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sent to Union" />
+
+        <EditText
+            android:id="@+id/editText_sentToUnionMorning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sent to Union" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No of members" />
+
+        <EditText
+            android:id="@+id/editText_noOfMembersMorning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No of members" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No of non-members" />
+
+        <EditText
+            android:id="@+id/editText_noOfNonMembersMorning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No of non-members" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New members" />
+
+        <EditText
+            android:id="@+id/editText_newMembersMorning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New members" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Evening" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Procurement" />
+
+        <EditText
+            android:id="@+id/editText_totalProcurementEvening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Total Procurement" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Local Sales" />
+
+        <EditText
+            android:id="@+id/editText_localSalesEvening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Local Sales" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sent to Union" />
+
+        <EditText
+            android:id="@+id/editText_sentToUnionEvening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/sent_to_union" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_of_members" />
+
+        <EditText
+            android:id="@+id/editText_noOfMembersEvening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No of members" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No of non-members" />
+
+        <EditText
+            android:id="@+id/editText_noOfNonMembersEvening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No of non-members" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New members" />
+
+        <EditText
+            android:id="@+id/editText_newMembersEvening"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="New members" />
+
+        <Button
+            android:id="@+id/submitButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
